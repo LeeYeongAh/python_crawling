@@ -8,6 +8,8 @@ sys.stderr = io.TextIOWrapper(sys.stderr.detach(), encoding='utf-8')
 
 url = 'http://www.encar.com'
 
+print('hi')
+
 mem = req.urlopen(url)
 
 #print(type(mem))
